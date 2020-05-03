@@ -1,0 +1,6 @@
+[submodule "thirdparty/tamaki_treewidth"]
+	path = thirdparty/tamaki_treewidth
+	url = https://github.com/TCS-Meiji/PACE2017-TrackA.git
+[submodule "thirdparty/quickbb"]
+	path = thirdparty/quickbb
+	url = https://github.com/qbit-/quickbb.git
