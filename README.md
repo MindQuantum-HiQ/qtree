@@ -3,9 +3,8 @@
 Repository structure
 --------------------
 - qtree  - main source code. Contains functions for various operations
-- scratchpad   - scripts for specific purposes, such as performance testing and complexity estimation
+- examples   - scripts for specific purposes, such as performance testing and complexity estimation
 - thirdparty  - third-party programs to calculate tree decomposition
-- test_circuits   - example circuits produced by Sergio Boixo for quantu supremacy experiments
 
 Installation of tree decomposition solvers
 ------------------------------------------
