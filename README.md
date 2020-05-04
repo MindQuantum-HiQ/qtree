@@ -49,6 +49,12 @@ To install run
 ```sh
 pip install qtree
 ```
+or 
+```sh
+git clone --recursive https://github.com/Huawei-HiQ/qtree.git
+cd qtree
+pip install .
+```
 
 Working with source code
 ------------------------
@@ -57,3 +63,13 @@ You need to make sure that tree decomposition programs are
 available in the *thirdparty* folder. Please clone the repository recursively 
 and follow the instructions in the previous section. There is no need 
 to include the tree decomposition programs to the PATH in this case.
+
+```sh
+git clone --recursive https://github.com/Huawei-HiQ/qtree.git
+cd qtree/thirdparty/tamaki_treewidth
+make && chmod +x tw-exact
+```
+Finally, add the source code to PYTHONPATH:
+```sh
+export PYTHONPATH=/path/to/qtree:$PYTHONPATH
+```
