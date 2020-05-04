@@ -5,6 +5,7 @@ Repository structure
 - qtree  - main source code. Contains functions for various operations
 - examples   - scripts for specific purposes, such as performance testing and complexity estimation
 - thirdparty  - third-party programs to calculate tree decomposition
+- doc - documentation in the Sphinx format
 
 Installation of tree decomposition solvers
 ------------------------------------------
