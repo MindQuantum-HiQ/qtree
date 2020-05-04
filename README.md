@@ -14,7 +14,7 @@ programs, otherwise only simple heuristics will be available.
 The instructions for the supported programs are provided below. We
 recommend to use the solver of Tamaki for its higher speed.
 
-- QuickBB
+### QuickBB solver
 Clone the repository
 ```sh
 git clone https://github.com/qbit-/quickbb.git
@@ -28,7 +28,7 @@ and add it to PATH:
 export PATH=$PATH:`cwd`
 ```
 
-- Tamaki solver
+### Tamaki solver
 Clone the repository
 ```sh
 git clone https://github.com/TCS-Meiji/PACE2017-TrackA.git
