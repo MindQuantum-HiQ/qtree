@@ -24,5 +24,9 @@ setuptools.setup(name='qtree',
                  author_email='r.schutski@skoltech.ru',
                  license='Apache',
                  packages=setuptools.find_packages(),
+                 install_requires=REQUIRED_PACKAGES,
+                 extras_require={
+                     'tensorflow': ['tensorflow<=1.15'],
+                 },
                  include_package_data=True,
                  zip_safe=False)
