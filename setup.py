@@ -9,7 +9,7 @@ import setuptools
 
 # Configure the required packages and scripts to install.
 REQUIRED_PACKAGES = [
-    'numpy==1.18.1',
+    'numpy==1.22.0',
     'networkx==2.3',
     'matplotlib==3.1.3'
 ]
